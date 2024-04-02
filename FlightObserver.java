@@ -1,7 +1,16 @@
-import java.util.Observer;
-public interface FlightObserver extends Observer {
+    public interface FlightObserver {
 
-    // Function to update on flight changes
-    public void update(Flight flight);
-
-}
+        void update(Flight flight, UpdateType updateType);
+//
+//        // Receives general updates
+//        void update(Flight flight, String update);
+//
+//        // Receives updates on departure time changes.
+//        void updateDepartureTime(Flight flight);
+//
+//        //Receives updates on flight cancellations.
+//        void updateCancellation(Flight flight);
+//
+//        // Receives updates on new promotions.
+//        void updatePromotion(Flight flight);
+    }
