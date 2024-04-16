@@ -28,4 +28,13 @@ public class SortBy {
         }
     }
 
+    //Sorts flights by destination.
+    public static class SortByDestination implements FlightSortStrategy {
+        @Override
+        public void sort(List<Flight> flights) {
+            Collections.sort(flights, Comparator.comparing(Flight::getDestination));
+        }
+    }
+
+
 }

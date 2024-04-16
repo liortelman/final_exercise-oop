@@ -3,18 +3,20 @@ import java.util.Observable;
 
 public class Flight extends Observable {
     protected int id;
+    private String destination;
     Time departure_time;
     Time flight_len;
     protected double flight_price;
     AirlineCompany company;
 
     // Constructor for initializing a Flight object
-    public Flight(int id, Time departure_time, Time flight_len, double flight_price, AirlineCompany company){
+    public Flight(int id, Time departure_time, Time flight_len, double flight_price, AirlineCompany company, String destination){
         this.id = id;
         this.departure_time = departure_time;
         this.flight_len = flight_len;
         this.flight_price = flight_price;
         this.company = company;
+        this.destination = destination;
     }
 
     // Getter method for retrieving the flight ID
@@ -41,6 +43,12 @@ public class Flight extends Observable {
     public AirlineCompany getAirlineCompany(){
         return this.company;
     }
+
+    // Getter method for retrieving the destination of the flight
+    public String getDestination(){
+        return this.destination;
+    }
+
 
     // Method to change the departure time of the flight
     public void changeDepartureTime(Time newDepartureTime) {

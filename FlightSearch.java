@@ -11,6 +11,9 @@ public class FlightSearch {
         this.sortStrategy = sortStrategy;
     }
 
+
+    // Perform additional operations on the matching flights, if needed
+    // For example, printing the matching flights
     public void search(List<Flight> flights) {
         if (sortStrategy != null) {
             sortStrategy.sort(flights);
