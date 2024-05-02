@@ -1,3 +1,6 @@
+/**
+ * Represents a small airline company.
+ **/
 import java.util.List;
 
 public class SmallCompany extends AirlineCompany{

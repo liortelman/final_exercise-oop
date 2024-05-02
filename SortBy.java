@@ -1,3 +1,6 @@
+/**
+ * Contains implementations of flight sorting strategies based on preference such as price, departure time, flight time, and destination.
+ **/
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;

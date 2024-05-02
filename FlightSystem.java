@@ -1,3 +1,6 @@
+/**
+ * Manages operations related to flights, such as adding, canceling, and retrieving flights.
+ **/
 import java.util.ArrayList;
 import java.util.List;
 
@@ -60,10 +63,3 @@ public class FlightSystem {
    }
 }
 
-//       for (int i = 0; i<companies.size(); i++){
-//int temp_id = companies.get(i);
-//            if (Comp_id == temp_id){
-//        companies.get(i).addFlight(flight);
-//                break;
-//                        }
-//                        }

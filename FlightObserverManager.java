@@ -1,3 +1,6 @@
+/**
+ * Manages flight observers and notifies them about flight updates.
+ **/
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Observer;
@@ -22,5 +25,3 @@ public class FlightObserverManager {
   }
  }
 }
-
-//public FlightObserverManager() { this.observers = new ArrayList<>();}

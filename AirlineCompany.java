@@ -1,3 +1,6 @@
+/**
+ * Abstract class representing an airline company. provides methods for managing flights inside the company.
+ **/
 import java.util.ArrayList;
 import java.util.List;
 

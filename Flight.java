@@ -1,3 +1,6 @@
+/**
+ * Represents a single flight.
+ **/
 import java.sql.Time;
 import java.util.Observable;
 

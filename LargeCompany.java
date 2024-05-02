@@ -1,3 +1,6 @@
+/**
+ * Represents a large airline company that may own or manage smaller airline companies.
+ */
 import java.util.ArrayList;
 import java.util.List;
 
